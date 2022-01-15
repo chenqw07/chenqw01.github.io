@@ -1988,9 +1988,10 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-		.features section {
+		.features section {  
+			/* 教育经历 */
 			padding: 3.5em 3em 1em 7em ;
-			width: 50%;
+			width: 100%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
 		}
@@ -3458,7 +3459,7 @@ input, select, textarea {
 		}
 
 /* Wrapper (main) */
-    /* 左侧栏的宽度 */
+    /* 文字左间距 */
 	#sidebar + #wrapper {
 		margin-left: 9em;
 	}
