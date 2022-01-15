@@ -166,7 +166,8 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		/* p的行间距 */
+		margin: 0 0 em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -208,6 +209,7 @@ input, select, textarea {
 				right: 0;
 				width: 100%;
 			}
+	/* 字体大小 */
 
 	h2 {
 		font-size: 1.75em;
@@ -1990,7 +1992,7 @@ input, select, textarea {
 
 		.features section {  
 			/* 教育经历 */
-			padding: 3.5em 3em 1em 7em ;
+			padding: 1.5em 3em 1em 5em ;
 			width: 100%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
@@ -2018,8 +2020,8 @@ input, select, textarea {
 				-ms-transform: scale(1);
 				transform: scale(1);
 				position: absolute;
-				left: 3em;
-				top: 3em;
+				left: 1em;
+				top: 1em;
 				opacity: 1;
 			}
 
@@ -2548,6 +2550,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
+					/* icon颜色 */
 					color: #b74e91;
 				}
 
@@ -3202,7 +3205,7 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			padding: 5em 5em 3em 5em ;
+			padding: 3em 5em 3em 5em ;
 			max-width: 100%;
 			width: 75em;
 		}
@@ -3252,6 +3255,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
+			/* 背景色 */
 			background-color: #b74e91;
 		}
 
