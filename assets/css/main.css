@@ -1976,6 +1976,7 @@ input, select, textarea {
 /* Features */
 
 	.features {
+		/* 框 */
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2595,7 +2596,7 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 10%;
 		}
 
 			.image.fit img {
