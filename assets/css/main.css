@@ -3009,7 +3009,9 @@ input, select, textarea {
 			border-radius: 0;
 			display: block;
 			position: relative;
-			width: 25em;
+			/* 图片宽度 */
+			width: 13em;
+			height: 13em;
 		}
 
 			.spotlights > section > .image img {
